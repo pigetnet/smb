@@ -18,15 +18,15 @@
         #Name of your Raspberry Pi
         netbios name = TOREPLACE
 #======================= Shares =======================
-[scripts]
+[user]
         # Path / User
-        path = /opt/user/scripts
+        path = /opt/user/
         force user = root
 
 [piget]
         path = /opt/piget
         force user = root
 
-[piget config]
-        path = /boot/piget/config
+[boot]
+        path = /boot/piget/
         force user = root
