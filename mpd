@@ -8,8 +8,7 @@
         panic action = /usr/share/samba/panic-action %d
         max log size = 1000
 
-        #Unsecure mode
-        security = user
+        security = share
         browseable = yes
         writeable = yes
         guest ok = yes
